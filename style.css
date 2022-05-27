@@ -305,14 +305,114 @@ header .logo {
 
 .work {
     width: 100%;
-    height: 200vh;
     background: #000;
+    text-align: center;
+}
+
+.work .title-work h2{
+    color: #fff;
+    font: bold 60px 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 100px 0 40px 0;
+}
+.work .title-work .work-nav {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+.work .title-work .work-nav a {
+    color: #7c7c7c;
+    text-decoration: none;
+    font: 16px 'Montserrat', sans-serif;
+    margin-right: 40px;
+    transition: .5s;
+}
+.work .title-work .work-nav a:hover {
+    color: #e0aa09;
 }
 
 .work .portfilo {
-    width: 90%;
-    height: 70%;
-    border: 1px solid #fff;
+    width: 100%;
+    height: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
 }
 
-.work .portfilo .img1 {}
+.work .portfilo .img1 {
+    background: url(img/pf1.gif) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+}
+.work .portfilo .img2 {
+    background: url(img/pf2.jpg) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+}
+.work .portfilo .img3 {
+    background: url(img/pf3.gif) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+}
+.work .portfilo .img4 {
+    background: url(img/pf4.jpg) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+    margin-top: -72px;
+}
+.work .portfilo .img5 {
+    background: url(img/pf5.jpg) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 350px;
+}
+.work .portfilo .img6 {
+    background: url(img/pf6.gif) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 244px;
+    margin-top: -104px;
+}
+.work .portfilo .img7 {
+    background: url(img/pf8.jpg) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+    margin-top: -140px;
+}
+.work .portfilo .img8 {
+    background: url(img/pf9.png) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+}
+.work .portfilo .img9 {
+    background: url(img/pf7.gif) no-repeat center  / cover;
+    border: 1px solid;
+    width: 350px;
+    height: 279px;
+    margin-top: -204px;
+}
+.work .workbut {
+    padding: 20px 75px;
+    margin-top: 60px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    letter-spacing: 2px;
+    font: 700 13px 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.work .workbut:hover {
+    color: #000;
+    background: #fff;
+    transition: 0.5s linear;
+}
