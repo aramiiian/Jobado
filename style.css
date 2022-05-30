@@ -417,7 +417,6 @@ header .logo {
 }
 .team {
     width: 100%;
-    height: 100vh;
     background: #000;
 }
 .team .team-title {
@@ -443,19 +442,19 @@ header .logo {
 }
 .team .team-img .tm1 {
     width: 25%;
-    height: 700px;
-    background: url(images/teamimg1.png) no-repeat center / 80%;
+    height: 600px;
+    background: url(images/teamimg1.png) no-repeat bottom / 120%;
     border: 1px solid #fff; 
 }
 .team .team-img .tm2 {
     width: 25%;
-    height: 700px;
-    background: url(images/teamimg2.png) no-repeat center / cover;
+    height: 600px;
+    background: url(images/teamimg2.png) no-repeat bottom / 120%;
     border: 1px solid #fff; 
 }
 .team .team-img .tm3 {
     width: 25%;
-    height: 700px;
-    background: url(images/teamimg3.png) no-repeat center / cover;
+    height: 600px;
+    background: url(images/teamimg3.png) no-repeat bottom / 120%;
     border: 1px solid #fff; 
 }
