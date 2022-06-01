@@ -445,19 +445,16 @@ header .logo {
     width: 25%;
     height: 600px;
     background: url(images/teamimg1.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
 }
 .team .team-img .tm2 {
     width: 25%;
     height: 600px;
-    background: url(images/teamimg2.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
+    background: url(images/teamimg2.png) no-repeat bottom / 120%;   
 }
 .team .team-img .tm3 {
     width: 25%;
     height: 600px;
-    background: url(images/teamimg3.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
+    background: url(images/teamimg3.png) no-repeat bottom / 120%;  
 }
 .team .teamName {
     display: flex;
@@ -468,7 +465,6 @@ header .logo {
 .team .teamName .name1 {
     width: 25%;
     height: 150px;
-    border: 1px solid #fff;
     text-align: center;
     padding-top: 15px;
 
@@ -477,12 +473,18 @@ header .logo {
     color: #9e9e9e;
     font-size: 14px;
     padding-top: 15px;
+    letter-spacing: 1.5px;
+
 }
 .team .teamName .name1 h4 {
     color: #fff;
     font-size: 20px;
     padding-top: 10px;
-
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name1 h4:hover {
+    color: #ffc107;
 }
 .team .teamName .name1 span {
     color: #fff;
@@ -494,7 +496,6 @@ header .logo {
 .team .teamName .name2 {
     width: 25%;
     height: 150px;
-    border: 1px solid #fff;
     text-align: center;
     padding-top: 15px;
 
@@ -503,13 +504,19 @@ header .logo {
     color: #9e9e9e;
     font-size: 14px;
     padding-top: 15px;
+    letter-spacing: 1.5px;
+
 
 }
 .team .teamName .name2 h4 {
     color: #fff;
     font-size: 20px;
     padding-top: 10px;
-
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name2 h4:hover {
+    color: #ffc107;
 }
 .team .teamName .name2 span {
     color: #fff;
@@ -519,7 +526,6 @@ header .logo {
 .team .teamName .name3 {
     width: 25%;
     height: 150px;
-    border: 1px solid #fff;
     text-align: center;
     padding-top: 15px;
     
@@ -528,16 +534,48 @@ header .logo {
     color: #9e9e9e;
     font-size: 14px;
     padding-top: 15px;
+    letter-spacing: 1.5px;
 
 }
 .team .teamName .name3 h4 {
     color: #fff;
     font-size: 20px;
     padding-top: 10px;
-
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name3 h4:hover {
+    color: #ffc107;
 }
 .team .teamName .name3 span {
     color: #fff;
     font-size: 30px;
     letter-spacing: 8px;
+}
+.teamsect2{
+    width: 100%;
+    height: 50vh;
+    background: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.teamsect2 .circle {
+    width: 110px;
+    height: 110px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamsect2 .circle::before {
+    content: "";
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #121212;
 }
