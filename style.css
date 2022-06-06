@@ -559,23 +559,62 @@ header .logo {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    
+}
+.teamsect2 .circ {
+    width: 170px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
 }
 .teamsect2 .circle {
-    width: 110px;
-    height: 110px;
-    border: 2px solid #fff;
+    width: 100px;
+    height: 100px;
+    border: 1px solid ;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .teamsect2 .circle::before {
     content: "";
-    width: 90px;
-    height: 90px;
-    border: 2px solid #fff;
+    width: 85px;
+    height: 85px;
+    border: 1px solid ;
     border-radius: 50%;
     background: #121212;
+    
+}
+.teamsect2 .circle h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+}
+.teamsect2 .circ p {
+    color: #fff;
+    font-size: 16px;
+}
+.teamsect2 .circle1{
+    background: conic-gradient(#fff 0deg 180deg, #4948489c 180deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle2{
+    background: conic-gradient(#fff 0deg 150deg, #4948489c 150deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle3{
+    background: conic-gradient(#fff 0deg 90deg, #4948489c 90deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle4{
+    background: conic-gradient(#fff 0deg 230deg, #4948489c 230deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle5{
+    background: conic-gradient(#fff 0deg 20deg, #4948489c 20deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle6{
+    background: conic-gradient(#fff 0deg 140deg, #4948489c 140deg 270deg, #fff 270deg 360deg);
+}
+.ourblogs {
+    width: 100%;
+    height: 100vh;
+    background: #000;
 }
