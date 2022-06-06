@@ -422,17 +422,18 @@ header .logo {
 .team .team-title {
     text-align: center;
     padding: 100px 0 40px 0;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
+    margin-left: 30%;
     
 }
 .team .team-title h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
 }
 .team .team-title p {
     color: #9e9e9e;
+
 }
 .team .team-img {
     display: flex;
@@ -444,17 +445,176 @@ header .logo {
     width: 25%;
     height: 600px;
     background: url(images/teamimg1.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
 }
 .team .team-img .tm2 {
     width: 25%;
     height: 600px;
-    background: url(images/teamimg2.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
+    background: url(images/teamimg2.png) no-repeat bottom / 120%;   
 }
 .team .team-img .tm3 {
     width: 25%;
     height: 600px;
-    background: url(images/teamimg3.png) no-repeat bottom / 120%;
-    border: 1px solid #fff; 
+    background: url(images/teamimg3.png) no-repeat bottom / 120%;  
+}
+.team .teamName {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+    justify-content: center;
+}
+.team .teamName .name1 {
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.team .teamName .name1 p {
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+
+}
+.team .teamName .name1 h4 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name1 h4:hover {
+    color: #ffc107;
+}
+.team .teamName .name1 span {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 8px;
+
+
+}
+.team .teamName .name2 {
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.team .teamName .name2 p {
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+
+
+}
+.team .teamName .name2 h4 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name2 h4:hover {
+    color: #ffc107;
+}
+.team .teamName .name2 span {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+.team .teamName .name3 {
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.team .teamName .name3 p {
+    color: #9e9e9e;
+    font-size: 14px;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+
+}
+.team .teamName .name3 h4 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.team .teamName .name3 h4:hover {
+    color: #ffc107;
+}
+.team .teamName .name3 span {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+.teamsect2{
+    width: 100%;
+    height: 50vh;
+    background: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teamsect2 .circ {
+    width: 170px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.teamsect2 .circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.teamsect2 .circle::before {
+    content: "";
+    width: 85px;
+    height: 85px;
+    border: 1px solid ;
+    border-radius: 50%;
+    background: #121212;
+    
+}
+.teamsect2 .circle h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+}
+.teamsect2 .circ p {
+    color: #fff;
+    font-size: 16px;
+}
+.teamsect2 .circle1{
+    background: conic-gradient(#fff 0deg 180deg, #4948489c 180deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle2{
+    background: conic-gradient(#fff 0deg 150deg, #4948489c 150deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle3{
+    background: conic-gradient(#fff 0deg 90deg, #4948489c 90deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle4{
+    background: conic-gradient(#fff 0deg 230deg, #4948489c 230deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle5{
+    background: conic-gradient(#fff 0deg 20deg, #4948489c 20deg 270deg, #fff 270deg 360deg);
+}
+.teamsect2 .circle6{
+    background: conic-gradient(#fff 0deg 140deg, #4948489c 140deg 270deg, #fff 270deg 360deg);
+}
+.ourblogs {
+    width: 100%;
+    height: 100vh;
+    background: #000;
 }
